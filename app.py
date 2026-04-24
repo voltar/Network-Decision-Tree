@@ -15,7 +15,7 @@ if not shared_drives:
 else:
     x_drive = True
 internet = st.checkbox(f"**Internet**: Mein Messrechner benötigt Internet Zugriff", value=False)
-printer = st.checkbox(f"**Drucker**: Mein Messrechner muss auf einem EMPA-Drucker drucken können", value=False)
+printer = st.checkbox(f"**Drucker**: Mein Messrechner muss auf einem internen Drucker drucken können", value=False)
 
 user = [ad_joined, os_update, cortex, shared_drives, x_drive, internet, printer]
 
